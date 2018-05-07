@@ -19,7 +19,7 @@ let data;
 
 function preload(){
   shp = loadImage("ship.png");
-  stars = loadImage("stars.jpg")
+  stars = loadImage("geosanson1656.jpg")
 
   // Load data from a TSV file
   data = loadTable("data.tsv","tsv","header")
