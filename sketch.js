@@ -71,9 +71,9 @@ function setup(){
 
 function draw(){
   // Draw background
-  image(stars, 0, 0);
   imageMode(CORNER);
-
+  image(stars, 0, 0);
+  
   // Update each ship
   for (i = 0; i < ships.length; i++){
     current_ship = ships[i]
