@@ -19,7 +19,7 @@ let data;
 
 function preload(){
   shp = loadImage("ship.png");
-  stars = loadImage("stars.jpg")
+  stars = loadImage("geosanson1656.jpg")
 
   // Load data from a TSV file
   data = loadTable("data.tsv","tsv","header")
@@ -31,7 +31,7 @@ function preload(){
 
 
 function setup(){
-  createCanvas(800,600);
+  createCanvas(1264,921);
   for (i = 0; i < data.getRowCount(); i++){
     // get the data from table
     ship_id = data.getNum(i,0)
