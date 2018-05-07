@@ -60,7 +60,7 @@ function setup(){
   }
 
   // Set values for data, and display the background image
-  image(stars, 0, 0, 1263, 902);
+  image(stars, 0, 0);
   time = 1664;
   startingframes = time * 60;
   speedoftime = 1;
@@ -71,7 +71,7 @@ function setup(){
 
 function draw(){
   // Draw background
-  image(stars, 0, 0, 1263, 902);
+  image(stars, 0, 0);
 
   // Update each ship
   for (i = 0; i < ships.length; i++){
