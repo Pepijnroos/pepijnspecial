@@ -31,7 +31,7 @@ function preload(){
 
 
 function setup(){
-  createCanvas(2528,1842);
+  createCanvas(1264,921);
   for (i = 0; i < data.getRowCount(); i++){
     // get the data from table
     ship_id = data.getNum(i,0)
@@ -60,7 +60,7 @@ function setup(){
   }
 
   // Set values for data, and display the background image
-  image(stars, 0, 0,stars.width, stars.height);
+  image(stars, 0, 0, 1264, 921);
   time = 1660;
   startingframes = time * 60;
   speedoftime = 1;
@@ -71,7 +71,7 @@ function setup(){
 
 function draw(){
   // Draw background
-  image(stars, 0, 0,stars.width, stars.height);
+  image(stars, 0, 0, 1264, 921);
 
   // Update each ship
   for (i = 0; i < ships.length; i++){
